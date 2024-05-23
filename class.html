@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>classwork</title>
+    <style>
+        .content{
+            display: flex;
+            justify-content: space-around;
+            background-color: green;
+            border-radius: 5px;
+            
+        }
+        .content .box{
+            max-width: 400px;
+            background-color: #36454F;
+            border-radius: 12px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+            font-family: 'times';
+            color: #F1FAFF;
+            border: 2px solid red;
+        }
+        .content ore{
+            max-width: 400px;
+            background-color: #36454F;
+            border-radius: 12px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+            font-family: 'times';
+            color: #F1FAFF;
+            border: 2px solid red;
+        }
+        .content #cmd{
+            max-width: 400px;
+            background-color: #36454F;
+            border-radius: 12px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+            font-family: 'times';
+            color: #F1FAFF;
+            border: 2px solid red;
+        }
+        .content #king{
+            max-width: 400px;
+            background-color: grey;
+            border-radius: 12px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+            font-family: 'times';
+            color: #F1FAFF;
+            border: 2px solid red;
+        }
+        .content #addText{
+            max-width: 400px;
+            background-color: #36454F;
+            border-radius: 12px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+            font-family: 'times';
+            color: #F1FAFF;
+            border: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+    <section class="content">
+        <div class="box" onclick="hover()">
+        <h2>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,
+        </h2>
+    </div>
+    <div class="box" onclick="over()">
+        <h2><b><i>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,</i></b></h2>
+    </div>
+    <div class="box" onclick="move()">
+        <h2>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,</h2>
+</div>
+        <div id="king">
+        <h2>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,<a href="#" type="button" id="showMore" onclick="show()">show more...</a>
+            <span id="less">and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.   </span>
+        </h2>
+    </div> 
+</section>
+<button id="addBox">Insert Box</button>
+
+<script src="js/new.js"></script>
+</body>
+</html>

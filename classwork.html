@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: space-around;
+        }
+        .container .box{
+            max-width: 400px;
+            background-color: #F1FAFF;
+            border-radius: 12px;
+            margin-top: 15px;
+            text-align: left;
+            font-family: 'arial';
+            color: black;
+        }
+        body{
+            background-color: #36454F;
+        }
+    </style>
+</head>
+<body>
+
+    <h3 id="demo">Welcome</h3>
+    <button onclick="changetxt()">Change text</button>
+
+    <div id="olu">
+        <ul>
+            <li>Matter</li>
+            <li>Wahala</li>
+        </ul>
+    </div>
+
+    <button onclick="change()">Change color</button>
+    
+
+    <br>
+    <label for ="">Phone  Number</label><br>
+    
+    <input type="text" name="Phone" id="phone" maxlength="11" placeholder="Enter your phone Number">
+
+    
+    <button onclick="check()">Validate</button>
+    <br>
+    <span id="errorSpan"></span>
+<br>
+    <div>
+
+        <img src="" alt="" id="mainImage" height="450" width="400"><br>
+        
+        <img src="images/background.jpg" height="200" width="150" onclick="displayImage(this.src)" alt="">
+        <img src="images/blue.jpg" height="200" width="150" onclick="displayImage(this.src)" alt="">
+        <img src="images/palm 2.jpg"  height="200" width="150" onclick="displayImage(this.src)" alt="">
+        <img src="images/palm 3.jpg" height="200" width="150" onclick="displayImage(this.src)" alt="">
+
+    </div>
+
+    
+    <div id="toggleDiv" style="margin-top:50px; font-size: 24px; margin-bottom: 15px;">Hello, Welcome to my page</div>
+   
+    <button id="togggleBtn" onclick="toggleDiv()">Toggle Div</button>
+
+    <button onclick="showDiv()">Show Div</button>
+
+
+    <section class="container">
+        <div class="box">
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, <a href="#" type="button" id="showMore" onclick="show()">show more...</a>
+            
+            <span id="less">and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.   </span>
+            </p>
+        </div>
+        <div class="box">
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, </p>
+        </div>
+        <div class="box">
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, </p>
+        </div>
+    </section>
+
+    <script src="js/script.js">
+
+    </script>
+</body>
+</html>
